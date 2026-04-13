@@ -10,9 +10,9 @@ app.get('/health', (req, res) => {
 });
 
 app.get('/patient', (req, res) => {
-  res.json({ message: 'Patient data protected under HIPAA' });
+  res.json({ message: 'Patient data is protected under HIPAA' });
 });
 
 app.listen(PORT, () => {
-  console.log(`Healthcare app running on port ${PORT}`);
+  console.log(`Healthcare app is running on port ${PORT}`);
 });
